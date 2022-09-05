@@ -16,6 +16,7 @@
 		68084F3328C5BC400092F5AD /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68084F3128C5BC400092F5AD /* NoticeViewController.swift */; };
 		68084F3428C5BC400092F5AD /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68084F3228C5BC400092F5AD /* NoticeViewController.xib */; };
 		68084F3628C5C4E70092F5AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68084F3528C5C4E70092F5AD /* GoogleService-Info.plist */; };
+		68084F3828C5CE130092F5AD /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68084F3728C5CE130092F5AD /* RemoteConfigDefaults.plist */; };
 		A9324B35225F9E6E31C5B869 /* Pods_Notice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317CC2A8ECBFE814E608F21A /* Pods_Notice.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		68084F3128C5BC400092F5AD /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		68084F3228C5BC400092F5AD /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		68084F3528C5C4E70092F5AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68084F3728C5CE130092F5AD /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				68084F1F28C5BBE00092F5AD /* SceneDelegate.swift */,
 				68084F2128C5BBE00092F5AD /* ViewController.swift */,
 				68084F2328C5BBE00092F5AD /* Main.storyboard */,
+				68084F3728C5CE130092F5AD /* RemoteConfigDefaults.plist */,
 				68084F2628C5BBE10092F5AD /* Assets.xcassets */,
 				68084F2828C5BBE10092F5AD /* LaunchScreen.storyboard */,
 				68084F2B28C5BBE10092F5AD /* Info.plist */,
@@ -89,7 +92,6 @@
 				3C62EDF97AB2301C430F9491 /* Pods-Notice.debug.xcconfig */,
 				20F00FD761F5922554D46C8D /* Pods-Notice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68084F3828C5CE130092F5AD /* RemoteConfigDefaults.plist in Resources */,
 				68084F2A28C5BBE10092F5AD /* LaunchScreen.storyboard in Resources */,
 				68084F2728C5BBE10092F5AD /* Assets.xcassets in Resources */,
 				68084F3628C5C4E70092F5AD /* GoogleService-Info.plist in Resources */,
