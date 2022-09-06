@@ -17,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		
 		FirebaseApp.configure()
 		
+		// 토큰 값 구하기
+		Installations.installations().authTokenForcingRefresh(true) { result, error in
+			if let error = error {
+				print("ERROR")
+				return
+			}
+			
+			guard let result = result else { return }
+			print("Installation auth token: \(result.authToken)")
+		}
 		return true
 	}
 
